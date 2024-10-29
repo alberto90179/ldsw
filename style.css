@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./fondo.png'); 
+    background-size: cover;
+    color: white;
+    height: 100vh; 
+    display: flex; /* Usar flexbox para centrar el contenido */
+    flex-direction: column; /* Apilar elementos verticalmente */
+}
+
+.container {
+    flex: 1; /* Permite que el contenedor ocupe todo el espacio disponible */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* Centrar verticalmente el contenido */
+    align-items: center; /* Centrar horizontalmente el contenido */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px; 
+    width: 100%; 
+}
+
+header img {
+    height: 100px; 
+    margin-right: 50px; 
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    margin: auto; /* Espaciado alrededor del video */
+}
+
+footer {
+    margin-top: auto; 
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
